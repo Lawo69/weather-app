@@ -81,20 +81,3 @@ npm run dev
 MIT License – © 2025 Your Name
 
 ---
-
-### 🛠️ Bonus: Root `package.json` (for `npm run dev`)
-
-Add this to the **root `package.json`**:
-
-```json
-{
-  "name": "weather-app",
-  "private": true,
-  "scripts": {
-    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
-  },
-  "devDependencies": {
-    "concurrently": "^8.0.1"
-  }
-}
-```
