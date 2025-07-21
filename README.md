@@ -10,8 +10,8 @@ This is a full-stack weather application built with:
 
 ## 📁 Project Structure
 
-frontend/ # React frontend app
-backend/ # Node backend (Express)
+- frontend/ # React frontend app
+- backend/ # Node backend (Express)
 
 ---
 
@@ -41,11 +41,11 @@ cd weather-app
 npm install
 
 # Install frontend (client) dependencies
-cd client
+cd frontend
 npm install
 
 # Install backend (server) dependencies
-cd ../server
+cd backend
 npm install
 ```
 
