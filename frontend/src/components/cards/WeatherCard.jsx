@@ -9,7 +9,7 @@ import lightran from '/assets/icons/light-rain.png';
 import compass from '/assets/icons/compass.png';
 
 const WeatherCard = ({ data, index, onClose, onClick  }) => {
-  if (!data) return null;
+  if (!data || !data.weather || data.weather.length === 0) return null;
 
   const {
     name,
@@ -20,7 +20,7 @@ const WeatherCard = ({ data, index, onClose, onClick  }) => {
     wind,
   } = data;
 
-  const weatherMain = weather[0].main.toLowerCase();
+  const weatherMain = weather?.[0]?.main?.toLowerCase?.() || 'clear';
 
   const weatherIcons = {
     clear: clearsky,
