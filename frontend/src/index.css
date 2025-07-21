@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  background-color: #1f2128;
+  color: white;
+}
+
+@theme {
+  --color-background: #1f2128;
+  --color-purple: #6c5dd3;
+  --color-blue: #388ee7;
+  --color-green: #40b681;
+  --color-orange: #de944e;
+  --color-red: #9c3a3a;
+  --color-gray: #383b47;
+}
