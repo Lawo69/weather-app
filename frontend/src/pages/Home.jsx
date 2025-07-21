@@ -61,7 +61,7 @@ const Home = () => {
         >
           {filteredCities.map((city, index) => (
             <WeatherCard
-              key={city.id}
+              key={`${city.name}-${index}`}
               data={city}
               index={index}
               onClose={() => setFilteredCities(allCitiesWeather)}
