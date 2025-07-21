@@ -30,7 +30,7 @@ Make sure you have installed:
 ### 2️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Lawo69/weather-app.git
 cd weather-app
 ```
 
